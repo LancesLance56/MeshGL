@@ -1,4 +1,4 @@
-C:\Users\pcUser\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=C:/Users/pcUser/AppData/Local/Programs/CLion/bin/ninja/win/x64/ninja.exe -DCMAKE_CXX_COMPILER=C:/ProgramData/mingw64/mingw64/bin/g++.exe -G Ninja -S "C:\Projects\opengl donut" -B "C:\Projects\opengl donut\cmake-build-debug"
+C:\Users\pcUser\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=C:/Users/pcUser/AppData/Local/Programs/CLion/bin/ninja/win/x64/ninja.exe -DCMAKE_CXX_COMPILER=C:/ProgramData/mingw64/mingw64/bin/g++.exe -G Ninja -S C:\Users\pcUser\CLionProjects\learnopengl.com\Lighting\Colors -B C:\Users\pcUser\CLionProjects\learnopengl.com\Lighting\Colors\cmake-build-debug
 -- The C compiler identification is GNU 13.2.0
 -- The CXX compiler identification is GNU 13.2.0
 -- Detecting C compiler ABI info
@@ -11,6 +11,6 @@ C:\Users\pcUser\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -DC
 -- Check for working CXX compiler: C:/ProgramData/mingw64/mingw64/bin/g++.exe - skipped
 -- Detecting CXX compile features
 -- Detecting CXX compile features - done
--- Configuring done (6.3s)
+-- Configuring done (2.8s)
 -- Generating done (0.0s)
--- Build files have been written to: C:/Projects/opengl donut/cmake-build-debug
+-- Build files have been written to: C:/Users/pcUser/CLionProjects/learnopengl.com/Lighting/Colors/cmake-build-debug

@@ -59,15 +59,15 @@
 			[
 				{
 					"backtrace" : 3,
-					"path" : "C:/Projects/opengl donut/include"
+					"path" : "C:/Users/pcUser/CLionProjects/learnopengl.com/Lighting/Colors/include"
 				},
 				{
 					"backtrace" : 3,
-					"path" : "C:/Projects/opengl donut/src"
+					"path" : "C:/Users/pcUser/CLionProjects/learnopengl.com/Lighting/Colors/src"
 				},
 				{
 					"backtrace" : 3,
-					"path" : "C:/Projects/opengl donut/src/gfx"
+					"path" : "C:/Users/pcUser/CLionProjects/learnopengl.com/Lighting/Colors/src/gfx"
 				}
 			],
 			"language" : "C",
@@ -87,15 +87,15 @@
 			[
 				{
 					"backtrace" : 3,
-					"path" : "C:/Projects/opengl donut/include"
+					"path" : "C:/Users/pcUser/CLionProjects/learnopengl.com/Lighting/Colors/include"
 				},
 				{
 					"backtrace" : 3,
-					"path" : "C:/Projects/opengl donut/src"
+					"path" : "C:/Users/pcUser/CLionProjects/learnopengl.com/Lighting/Colors/src"
 				},
 				{
 					"backtrace" : 3,
-					"path" : "C:/Projects/opengl donut/src/gfx"
+					"path" : "C:/Users/pcUser/CLionProjects/learnopengl.com/Lighting/Colors/src/gfx"
 				}
 			],
 			"language" : "CXX",
@@ -138,7 +138,7 @@
 			},
 			{
 				"backtrace" : 2,
-				"fragment" : "\"C:\\Projects\\opengl donut\\lib\\libglfw3dll.a\"",
+				"fragment" : "C:\\Users\\pcUser\\CLionProjects\\learnopengl.com\\Lighting\\Colors\\lib\\libglfw3dll.a",
 				"role" : "libraries"
 			},
 			{

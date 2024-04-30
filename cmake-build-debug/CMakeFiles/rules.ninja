@@ -52,7 +52,7 @@ rule CUSTOM_COMMAND
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = C:\Users\pcUser\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe --regenerate-during-build -S"C:\Projects\opengl donut" -B"C:\Projects\opengl donut\cmake-build-debug"
+  command = C:\Users\pcUser\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe --regenerate-during-build -SC:\Users\pcUser\CLionProjects\learnopengl.com\Lighting\Colors -BC:\Users\pcUser\CLionProjects\learnopengl.com\Lighting\Colors\cmake-build-debug
   description = Re-running CMake...
   generator = 1
 

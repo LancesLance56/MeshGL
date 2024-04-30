@@ -16,3 +16,4 @@ By default the main.cpp file creates a small demo for the Perlin Mesh feature.
 ## Compilation
 * CMakeLists.txt is available, you may also compile using the .idea for CLion.
 * Unix Makefile
+* Ninja 

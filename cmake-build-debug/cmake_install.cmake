@@ -1,4 +1,4 @@
-# Install script for directory: C:/Projects/opengl donut
+# Install script for directory: C:/Users/pcUser/CLionProjects/learnopengl.com/Lighting/Colors
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Projects/opengl donut/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/pcUser/CLionProjects/learnopengl.com/Lighting/Colors/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

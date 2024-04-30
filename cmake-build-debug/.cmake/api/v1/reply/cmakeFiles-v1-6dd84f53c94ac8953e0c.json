@@ -802,8 +802,8 @@
 	"kind" : "cmakeFiles",
 	"paths" : 
 	{
-		"build" : "C:/Projects/opengl donut/cmake-build-debug",
-		"source" : "C:/Projects/opengl donut"
+		"build" : "C:/Users/pcUser/CLionProjects/learnopengl.com/Lighting/Colors/cmake-build-debug",
+		"source" : "C:/Users/pcUser/CLionProjects/learnopengl.com/Lighting/Colors"
 	},
 	"version" : 
 	{

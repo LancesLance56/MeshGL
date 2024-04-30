@@ -134,12 +134,14 @@ void render_loop() {
     perlinVertices = perlinMesh.vertices;
     perlinIndices = perlinMesh.indices;
 
+    unsigned int updatedSizeOfMesh = sizeOfMesh*frequency;
+
     renderer = new Renderer(
         shaderProgram,
         perlinVertices,
         perlinIndices,
-        sizeOfMesh*sizeOfMesh*3*sizeof(float)*frequency*frequency,
-        (sizeOfMesh-1)*(sizeOfMesh-1)*6*sizeof(unsigned int)*frequency*frequency,
+        updatedSizeOfMesh*updatedSizeOfMesh*3*sizeof(float),
+        (updatedSizeOfMesh-1)*(updatedSizeOfMesh-1)*6*sizeof(unsigned int),
         camera->mvp,
         "mvp"
     );

@@ -1,0 +1,11 @@
+# ninja log v5
+28	214	7358129412825418	CMakeFiles/donut.dir/src/gfx/abo.cpp.obj	82ff4473437bb19b
+8	735	7358129418437483	CMakeFiles/donut.dir/src/glad.c.obj	538f7f24a01b3f43
+22	1315	7358129424265137	CMakeFiles/donut.dir/src/gfx/shader.cpp.obj	945fdc9ee9864d6b
+17	1323	7358129424295059	CMakeFiles/donut.dir/src/gfx/window.cpp.obj	88a8ff98d4b032c9
+32	1409	7358129424964866	CMakeFiles/donut.dir/src/gfx/vao.cpp.obj	5c2ac56ff1d14a6e
+222	2152	7358129432609391	CMakeFiles/donut.dir/src/gfx/renderer.cpp.obj	c98f2c39f0808c27
+13	2154	7358129432649285	CMakeFiles/donut.dir/src/main.cpp.obj	5f36695fdc89ea23
+736	2354	7358129434685654	CMakeFiles/donut.dir/src/gfx/texture.cpp.obj	6be649a2c468fc6d
+1323	2745	7358129438600168	CMakeFiles/donut.dir/src/handle_input.cpp.obj	d0642e62cd90226b
+1315	2805	7358129439193841	CMakeFiles/donut.dir/src/gfx/camera.cpp.obj	88a16f805be496bf

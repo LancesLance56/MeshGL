@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="CMakePresetLoader"><![CDATA[{
+  "useNewFormat": true
+}]]></component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" GENERATION_OPTIONS="-G Ninja" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5033a8eb-d9df-4456-ac04-a78f1b3e2b4e" name="Changes" comment="First Commit!">
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/discord.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/file.template.settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/opengl donut.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="FileTemplateManagerImpl">
+    <option name="SCHEME" value="Project" />
+  </component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="e5e42fd5-166b-47ea-92ae-fd25d50bddbf" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "CMake Application.cmake.executor": "Run",
+    "CMake Application.donut.executor": "Run",
+    "CMake Debug.Unnamed.executor": "Debug",
+    "CMake Debug.run.executor": "Debug",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Projects/opengl donut",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
+    "structure.view.defaults.are.configured": "true",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "ChangesTree.GroupingKeys": [
+      "directory"
+    ]
+  }
+}]]></component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5033a8eb-d9df-4456-ac04-a78f1b3e2b4e" name="Changes" comment="" />
+      <created>1714112140588</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1714112140588</updated>
+      <workItem from="1714112143768" duration="256000" />
+      <workItem from="1714119672288" duration="2021000" />
+      <workItem from="1714123520435" duration="7853000" />
+      <workItem from="1714140163751" duration="498000" />
+      <workItem from="1714203076853" duration="742000" />
+      <workItem from="1714204634569" duration="4413000" />
+      <workItem from="1714214645390" duration="14356000" />
+      <workItem from="1714230122164" duration="2075000" />
+      <workItem from="1714272625594" duration="93000" />
+      <workItem from="1714272743432" duration="2313000" />
+      <workItem from="1714298087781" duration="3230000" />
+      <workItem from="1714362464816" duration="3589000" />
+      <workItem from="1714366737389" duration="49000" />
+      <workItem from="1714456330910" duration="1478000" />
+      <workItem from="1714458399775" duration="1665000" />
+    </task>
+    <task id="LOCAL-00001" summary="First Commit!">
+      <option name="closed" value="true" />
+      <created>1714458472969</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1714458472969</updated>
+    </task>
+    <task id="LOCAL-00002" summary="First Commit!">
+      <option name="closed" value="true" />
+      <created>1714458705442</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1714458705442</updated>
+    </task>
+    <task id="LOCAL-00003" summary="First Commit!">
+      <option name="closed" value="true" />
+      <created>1714458718090</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1714458718090</updated>
+    </task>
+    <task id="LOCAL-00004" summary="First Commit!">
+      <option name="closed" value="true" />
+      <created>1714458897188</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1714458897188</updated>
+    </task>
+    <task id="LOCAL-00005" summary="First Commit!">
+      <option name="closed" value="true" />
+      <created>1714458912130</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1714458912130</updated>
+    </task>
+    <task id="LOCAL-00006" summary="First Commit!">
+      <option name="closed" value="true" />
+      <created>1714459463388</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1714459463388</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VCPKGProject">
+    <isAutomaticCheckingOnLaunch value="false" />
+    <isAutomaticFoundErrors value="true" />
+    <isAutomaticReloadCMake value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="First Commit!" />
+    <option name="LAST_COMMIT_MESSAGE" value="First Commit!" />
+  </component>
+</project>

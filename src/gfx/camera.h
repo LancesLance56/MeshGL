@@ -44,7 +44,7 @@ public:
       float far = 100.f
     );
 
-    void changeRotation(GLFWwindow* window, float xpos, float ypos, float mouseSensitivity);
+    void change_rotation(GLFWwindow* window, float xpos, float ypos, float mouseSensitivity);
     void moveCamera(glm::vec3 move_vector);
     void updateCamera();
 

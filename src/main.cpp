@@ -7,10 +7,11 @@
 #include "camera.h"
 #include "handle_input.h"
 #include "mesh/perlin_mesh.h"
+#include "mesh/perlin_plane.h"
 
 void init();
 void render_loop();
-void calculateDeltaTime();
+void calculate_delta_time();
 
 Window* window;
 Camera* camera;
@@ -81,8 +82,8 @@ unsigned int cubeIndices[] = {
 unsigned int sizeOfMesh = 10;
 unsigned int frequency = 4;
 
-float x_offset = 0.0f;
-float y_offset = 0.0f;
+double x_offset = 0.0f;
+double z_offset = 0.0f;
 float moveSpeed = 1.0f;
 float scale = 0.4f;
 
@@ -125,26 +126,10 @@ int main( int argc, char** argv ) {
 }
 
 void render_loop() {
-    calculateDeltaTime();
+    calculate_delta_time();
 
     x_offset += moveSpeed * deltaTime;
-    y_offset += moveSpeed * deltaTime;
-
-    PerlinMesh perlinMesh(sizeOfMesh, frequency, x_offset, y_offset, scale);
-    perlinVertices = perlinMesh.vertices;
-    perlinIndices = perlinMesh.indices;
-
-    unsigned int updatedSizeOfMesh = sizeOfMesh*frequency;
-
-    renderer = new Renderer(
-        shaderProgram,
-        perlinVertices,
-        perlinIndices,
-        updatedSizeOfMesh*updatedSizeOfMesh*3*sizeof(float),
-        (updatedSizeOfMesh-1)*(updatedSizeOfMesh-1)*6*sizeof(unsigned int),
-        camera->mvp,
-        "mvp"
-    );
+    z_offset += moveSpeed * deltaTime;
 
     camera->moveCamera(
         handleMovement(
@@ -155,17 +140,26 @@ void render_loop() {
         )
     );
 
-	camera->updateCamera();
+    PerlinPlane perlinPlane(
+        camera,
+        shaderProgram,
+        sizeOfMesh,
+        frequency,
+        x_offset,
+        z_offset,
+        scale,
+        glm::vec3(0.0f, 1.0f, 1.0f)
+    );
 
-	renderer->SetMVP(camera->mvp);
-	renderer->Draw();
+	camera->updateCamera();
+    perlinPlane.draw(camera->mvp);
 }
 
 void init() {
-    calculateDeltaTime();
+    calculate_delta_time();
 
-	std::string pathToVertexShader = "./src/shaders/plain_vertex.vert";
-	std::string pathToFragmentShader = "./src/shaders/plain_fragment.frag";
+	std::string pathToVertexShader = "./src/shaders/color.vert";
+	std::string pathToFragmentShader = "./src/shaders/color.frag";
 	std::string pathToImage = "./src/textures/img.png";
 
 	window = new Window();
@@ -177,10 +171,13 @@ void init() {
 		(float)SCREEN_WIDTH / SCREEN_HEIGHT
 	);
 
-    window->setCurrentStaticCamera(camera);
+    shaderProgram = new Shader(pathToVertexShader, pathToFragmentShader);
+
+
+    window->set_current_static_camera(camera);
 }
 
-void calculateDeltaTime() {
+void calculate_delta_time() {
     deltaTime = glfwGetTime() - oldTimeLog;
     oldTimeLog = glfwGetTime();
 }

@@ -20,45 +20,44 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5033a8eb-d9df-4456-ac04-a78f1b3e2b4e" name="Changes" comment="First Commit!">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/opengl donut.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/opengl donut.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/cmake.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/cmake.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="5033a8eb-d9df-4456-ac04-a78f1b3e2b4e" name="Changes" comment="Fix Perlin Mesh Incomplete Bug">
+      <change afterPath="$PROJECT_DIR$/src/mesh/mesh.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mesh/mesh.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mesh/perlin_plane.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mesh/perlin_plane.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shaders/default.frag" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shaders/default.vert" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/cache-v2-a3fa3e06de551cef2402.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-095f9e0213ae5af08ab9.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-8e022316de016339d903.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2024-04-30T05-54-26-0451.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-donut-Debug-22e3fc8ec24717e9ae22.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/cache-v2-406ef6ea921920da007b.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-6dd84f53c94ac8953e0c.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-2b55fdad4ffde7e4376c.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2024-04-30T07-32-21-0445.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-donut-Debug-563c7f7dba850c56d016.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.28.1/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.28.1/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.28.1/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.28.1/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.28.1/CompilerIdC/a.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.28.1/CompilerIdC/a.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.28.1/CompilerIdCXX/a.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.28.1/CompilerIdCXX/a.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeConfigureLog.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeConfigureLog.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/donut.dir/src/gfx/abo.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/donut.dir/src/gfx/abo.cpp.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/donut.dir/src/gfx/camera.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/donut.dir/src/gfx/camera.cpp.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/donut.dir/src/gfx/renderer.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/donut.dir/src/gfx/renderer.cpp.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/donut.dir/src/gfx/shader.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/donut.dir/src/gfx/shader.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/donut.dir/src/gfx/texture.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/donut.dir/src/gfx/texture.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/donut.dir/src/gfx/vao.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/donut.dir/src/gfx/vao.cpp.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/donut.dir/src/gfx/window.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/donut.dir/src/gfx/window.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/donut.dir/src/glad.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/donut.dir/src/glad.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/donut.dir/src/handle_input.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/donut.dir/src/handle_input.cpp.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/donut.dir/src/main.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/donut.dir/src/main.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/donut.dir/src/mesh/perlin.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/donut.dir/src/mesh/perlin.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/donut.dir/src/mesh/perlin_mesh.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/donut.dir/src/mesh/perlin_mesh.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rules.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rules.ninja" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/build.ninja" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/donut.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/donut.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gfx/camera.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/gfx/camera.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gfx/camera.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/gfx/camera.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gfx/renderer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/gfx/renderer.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gfx/renderer.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/gfx/renderer.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gfx/shader.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/gfx/shader.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gfx/shader.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/gfx/shader.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gfx/window.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/gfx/window.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gfx/window.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/gfx/window.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mesh/perlin_mesh.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/mesh/perlin_mesh.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shaders/fragmentShader.frag" beforeDir="false" afterPath="$PROJECT_DIR$/src/shaders/color.frag" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shaders/vertexShader.vert" beforeDir="false" afterPath="$PROJECT_DIR$/src/shaders/color.vert" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,6 +72,11 @@
     <option name="SCHEME" value="Project" />
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Lance Dy Chua &lt;166608327+lanceslance56@users.noreply.github.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -98,7 +102,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "CMake Application.cmake.executor": "Run",
+    "CMake Application.cmake.executor": "Debug",
     "CMake Application.donut.executor": "Run",
     "CMake Debug.Unnamed.executor": "Debug",
     "CMake Debug.run.executor": "Debug",
@@ -109,7 +113,7 @@
     "cidr.known.project.marker": "true",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/pcUser/CLionProjects/learnopengl.com/Lighting/Colors",
+    "last_opened_file_path": "C:/Users/pcUser/CLionProjects/learnopengl.com/Lighting/Colors/src/shaders",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -126,6 +130,11 @@
     ]
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\pcUser\CLionProjects\learnopengl.com\Lighting\Colors\src\shaders" />
+    </key>
+  </component>
   <component name="RunManager" selected="CMake Application.cmake">
     <configuration name="donut" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="donut" TARGET_NAME="donut" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="donut" RUN_TARGET_NAME="donut">
       <method v="2">
@@ -164,7 +173,9 @@
       <workItem from="1714462334896" duration="816000" />
       <workItem from="1714463553307" duration="145000" />
       <workItem from="1714536919381" duration="1614000" />
-      <workItem from="1714552869223" duration="993000" />
+      <workItem from="1714552869223" duration="3247000" />
+      <workItem from="1714577453035" duration="1432000" />
+      <workItem from="1714614329479" duration="3978000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit!">
       <option name="closed" value="true" />
@@ -214,7 +225,23 @@
       <option name="project" value="LOCAL" />
       <updated>1714459463388</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Fix Perlin Mesh Incomplete Bug">
+      <option name="closed" value="true" />
+      <created>1714554064780</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1714554064780</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Fix Perlin Mesh Incomplete Bug">
+      <option name="closed" value="true" />
+      <created>1714554230783</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1714554230783</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -227,6 +254,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First Commit!" />
-    <option name="LAST_COMMIT_MESSAGE" value="First Commit!" />
+    <MESSAGE value="Update README.md" />
+    <MESSAGE value="Fix Perlin Mesh Incomplete Bug" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix Perlin Mesh Incomplete Bug" />
   </component>
 </project>

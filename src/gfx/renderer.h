@@ -35,9 +35,9 @@ public:
    Renderer(Shader* shader, float vertices[], unsigned int indices[], GLsizei sizeOfVertices, GLsizei sizeOfIndices, glm::mat4 mvp, const char* mvp_name);
    // monster constructor go brrr
    Renderer(Shader* shader, const std::string& pathToImage, float vertices[], unsigned int indices[], GLsizei sizeOfVertices, GLsizei sizeOfIndices, glm::mat4 mvp, const char* mvp_name);
-   void Draw();
-   void SetPolygonMode(GLenum mode);
-   void SetMVP(glm::mat4 mvp);
+   void draw();
+   void set_polygon_mode(GLenum mode);
+   void set_mvp(glm::mat4 mvp);
 
 };
 

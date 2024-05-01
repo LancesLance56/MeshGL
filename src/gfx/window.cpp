@@ -42,7 +42,7 @@ Window::Window() {
     glEnable(GL_DEPTH_TEST);
 }
 
-void Window::setCurrentStaticCamera(Camera* camera) {
+void Window::set_current_static_camera(Camera* camera) {
     currentStaticCamera = camera;
 }
 
@@ -52,7 +52,7 @@ void cursor_position_callback(GLFWwindow* window, double xpos, double ypos) {
         return;
     }
 
-    currentStaticCamera->changeRotation(window, xpos, ypos, 0.1f);
+    currentStaticCamera->change_rotation(window, xpos, ypos, 0.1f);
 }
 
 

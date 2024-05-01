@@ -1,5 +1,5 @@
-#ifndef DONUT_PERLIN_MESH_H
-#define DONUT_PERLIN_MESH_H
+#ifndef PERLIN_MESH_H
+#define PERLIN_MESH_H
 
 #include <glm/glm.hpp>
 
@@ -15,4 +15,4 @@ public:
 };
 
 
-#endif //DONUT_PERLIN_MESH_H
+#endif // PERLIN_MESH_H

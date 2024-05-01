@@ -32,6 +32,10 @@ set(SOURCES
         src/mesh/perlin_mesh.cpp
         src/mesh/perlin_mesh.h
         src/mesh/perlin.cpp
+        src/mesh/perlin_plane.h
+        src/mesh/perlin_plane.cpp
+        src/mesh/mesh.h
+        src/mesh/mesh.cpp
 )
 
 # Add executable target

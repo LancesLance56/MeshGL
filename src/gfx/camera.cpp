@@ -25,7 +25,7 @@ Camera::Camera(
    mvp = m_model * m_lookAt * m_projection;
 }
 
-void Camera::changeRotation(GLFWwindow* window, float xpos, float ypos, float mouseSensitivity) {
+void Camera::change_rotation(GLFWwindow* window, float xpos, float ypos, float mouseSensitivity) {
     // to make sure that the delta mouse coords doesn't freak out and move the camera too much
     if (isFirstFrame) {
         isFirstFrame = false;

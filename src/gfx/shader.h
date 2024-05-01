@@ -22,7 +22,7 @@ public:
 
    Shader();
    Shader(std::string pathToVertexShader, std::string pathToFragmentShader);
-   void checkShaderCompilerErrors(GLuint shaderID, ShaderType shaderType);
+   void check_shader_compiler_errors(GLuint shaderID, ShaderType shaderType);
 
 };
 

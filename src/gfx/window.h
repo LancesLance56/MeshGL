@@ -20,7 +20,7 @@ public:
     GLFWwindow* window;
 
     Window();
-    void setCurrentStaticCamera(Camera* camera);
+    void set_current_static_camera(Camera* camera);
 };
 
 #endif

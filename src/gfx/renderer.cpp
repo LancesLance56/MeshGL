@@ -7,15 +7,12 @@ Renderer::Renderer(Shader* shader, float vertices[], unsigned int indices[], GLs
     this->count = sizeOfIndices/sizeof(unsigned int);
     this->shader = shader;
     this->mvp = mvp;
-
-    shouldDrawElements = true;
-    count = sizeOfIndices/sizeof(unsigned int);
-
-    m_model = glm::mat4(1.0f);
-
-    vao = vao_create();
-    vbo = abo_create(GL_ARRAY_BUFFER, GL_STATIC_DRAW);
-    ebo = abo_create(GL_ELEMENT_ARRAY_BUFFER, GL_STATIC_DRAW);
+    this->shouldDrawElements = true;
+    this->count = sizeOfIndices/sizeof(unsigned int);
+    this->m_model = glm::mat4(1.0f);
+    this->vao = vao_create();
+    this->vbo = abo_create(GL_ARRAY_BUFFER, GL_STATIC_DRAW);
+    this->ebo = abo_create(GL_ELEMENT_ARRAY_BUFFER, GL_STATIC_DRAW);
 
     vao_bind(vao);
 
@@ -34,12 +31,10 @@ Renderer::Renderer(Shader* shader, const std::string& pathToImage, float vertice
    this->count = sizeOfIndices/sizeof(unsigned int);
    this->shader = shader;
    this->mvp = mvp;
-
-   m_model = glm::mat4(1.0f);
-
-   vao = vao_create();
-   vbo = abo_create(GL_ARRAY_BUFFER, GL_STATIC_DRAW);
-   ebo = abo_create(GL_ELEMENT_ARRAY_BUFFER, GL_STATIC_DRAW);
+   this->m_model = glm::mat4(1.0f);
+   this->vao = vao_create();
+   this->vbo = abo_create(GL_ARRAY_BUFFER, GL_STATIC_DRAW);
+   this->ebo = abo_create(GL_ELEMENT_ARRAY_BUFFER, GL_STATIC_DRAW);
 
    vao_bind(vao);
 
@@ -59,11 +54,11 @@ Renderer::Renderer(Shader* shader, const std::string& pathToImage, float vertice
    }
 }
 
-void Renderer::SetMVP(glm::mat4 mvp) {
+void Renderer::set_mvp(glm::mat4 mvp) {
     this->mvp = mvp;
 }
 
-void Renderer::Draw() {
+void Renderer::draw() {
    glUniformMatrix4fv(glGetUniformLocation(shader->ID, "mvp"), 1, GL_FALSE, &mvp[0][0]);
 
    if (texture == UNDEFINED_TEXTURE_LOCATION) {
@@ -79,14 +74,3 @@ void Renderer::Draw() {
       glDrawElements(GL_TRIANGLES, count, GL_UNSIGNED_INT, nullptr);
    }
 }
-
-void Renderer::SetPolygonMode(GLenum mode) {
-   if (mode != GL_FILL || mode != GL_LINE || mode != GL_POINT) {
-      std::cerr << "Selected mode is not a valid drawing mode!" << std::endl;
-      return;
-   }
-
-   glPolygonMode(GL_FRONT, mode);
-}
-
-
